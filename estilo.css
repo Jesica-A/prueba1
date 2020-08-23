@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.nombre{
+    position: absolute;
+    top: 20px;
+    left: 710px;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tabla1{
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    color: black;
+}
+.tabla2{
+    position: absolute;
+    top: 120px;
+    left: 710px;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-style: brush script MT;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-style: brush script MT;
+}
+
+h3{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-style: brush script MT;
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-style: brush script MT;
+}
+table{
+    font-size: 20px;
+    text-align: center;
+}
