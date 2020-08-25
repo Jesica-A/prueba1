@@ -1,35 +1,73 @@
+
 body{
     background-color: black;
 }
 
-.contenedor{
+.navegation{
+    background-color: rgba(255, 255, 255, 0.204);
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navegation1{
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    
+}
+
+.conteiner{
     position: relative;
     display: inline-block;
     text-align: center;
 }
  
-.nombre{
+.name{
     position: absolute;
     top: 20px;
-    left: 710px;
+    left: 680px;
 }
-.info{
+
+.text{
+    z-index:100;
+    padding: 10px;
+    position:absolute;
+    background-color: rgba(25, 20, 20, 0.537);    
+    color:white;
+    font-size:17px;
+    font-weight:italic;
+    left:180px;
+    top:350px;
+}
+
+.social{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 560px;
+    left: 150px;
 }
-.tabla1{
+
+.icon{
+    z-index: 100;
+    justify-content: space-between;
+    margin: 20px;
+    width: 140px;
+    height: 100px;
+}
+
+.tabla{
     position: absolute;
     top: 120px;
-    left: 750px;
-    color: black;
-}
-.tabla2{
-    position: absolute;
-    top: 120px;
-    left: 710px;
-    color: white;
+    left: 700px;
 }
 
 h1{
@@ -42,24 +80,16 @@ h1{
 h2{
     font-size: 45px;
     text-align: center;
-    color: black;
     font-style: brush script MT;
 }
 
-h3{
-    font-size: 45px;
-    text-align: center;
-    color: white;
-    font-style: brush script MT;
-}
-
-h4{
+p{
     font-size: 20px;
-    text-align: center;
     color: white;
-    font-style: brush script MT;
+    text-align: center;
 }
 table{
     font-size: 20px;
     text-align: center;
 }
+
